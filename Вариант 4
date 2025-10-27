@@ -1,9 +1,0 @@
-WHITE = "\033[47m  \033[0m"
-RED = "\033[41m  \033[0m"
-height_flag = 6
-print("=== 波兰国旗 ===")
-for i in range(height_flag):
-    if i < height_flag // 2:
-        print(WHITE * 6)  # 上白
-    else:
-        print(RED * 6)    # 下红
